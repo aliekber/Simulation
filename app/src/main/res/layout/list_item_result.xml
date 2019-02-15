@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/homeTeam"
+        android:layout_width="30dp"
+        android:layout_weight="30"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/homeGoals"
+        android:layout_width="10dp"
+        android:layout_weight="10"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="HG"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/outGoals"
+        android:layout_weight="10"
+        android:layout_width="10dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="OG"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/outTeam"
+        android:layout_weight="30"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Out"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
